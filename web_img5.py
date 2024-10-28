@@ -18,7 +18,7 @@ from google.cloud import translate_v2 as translate
 import os
 
 # Google Cloud Vision API Key 설정 (사전에 설정해야 합니다)
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\Uxzcjasdj.json'  # Google Cloud Vision API Key 경로로 변경
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'Google Cloud Vision API Key 경로로 변경.json'  # Google Cloud Vision API Key 경로로 변경
 
 # Google Cloud Translate API Key 설정 (사전에 설정해야 합니다)
 translate_client = translate.Client()   # Google Cloud Translate API Client 생성
